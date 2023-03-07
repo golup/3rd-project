@@ -1,0 +1,80 @@
+*{
+    /* padding: 0%;
+    margin: 0%; */
+}
+
+body{
+    background-color: rgb(238, 142, 18);
+    
+        background-image: url(./assets/picture.png);
+         background-repeat:no-repeat ; 
+        background-size: cover;
+        background-position: center; 
+        height: 100vh;
+        padding: 0%;
+
+      
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+header div ul  {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    list-style: none;
+}
+
+header div ul li{
+    display: flex;
+    font-size: xx-large;
+    padding: 15%;
+    color: rgb(250, 160, 5);
+
+}
+header div button{
+    padding: 10px 30px;
+    border-radius: 10%;
+    font-weight: 600;
+    background-color:rgb(243, 10, 146); 
+    color: aliceblue;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+section p {
+  font-size: 60px; 
+  color: rgb(250, 153, 7);
+    
+}
+section div button{
+    padding: 10px 10px;
+    background-color: rgb(243, 10, 146);
+    font-weight: 700;
+    color: aliceblue;
+    
+    border-radius: 10px;
+}
+
+ section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+}
